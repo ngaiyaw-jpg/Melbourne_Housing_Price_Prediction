@@ -125,8 +125,7 @@ if predict_button:
     result = max(result, 0)
         
     st.write(f"Predicted House Price: ${result:,.0f}")
-    st.caption("On the test data, the model is usually off by about $232,000 (MAE).")
-        
+    st.caption("On the test data, the model is usually off by about $229,000 (MAE).")
     # pictures for a cheap, median, and high price 
     low_price = mel['Price'].quantile(0.25)
     high_price = mel['Price'].quantile(0.75)                    
