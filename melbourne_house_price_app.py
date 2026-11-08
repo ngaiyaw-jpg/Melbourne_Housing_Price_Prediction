@@ -60,6 +60,7 @@ with col1:
                           min_value = int(mel['Bedroom'].min()),
                           max_value = int(mel['Bedroom'].max()),
                           value = 5)
+with col2:
     
     var6 = st.number_input("Enter number of bathrooms",
                           min_value = int(mel['Bathroom'].min()),
@@ -71,7 +72,6 @@ with col1:
                           max_value = int(mel['Car'].max()),
                           value = 3)
 
-with col2:
     # biggest 1 % of the land sizes and building areas are cut off to use sliders  easily
     var8 = st.slider ("Enter land size (m2)",
                       min_value = 0,
