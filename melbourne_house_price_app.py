@@ -16,7 +16,7 @@ st.header("Melbourn house Predication App ")
 with st.sidebar:
     st.image('PU.jpg')
     st.text("Student Name: Ngai Yaw")
-    st.text("Student ID: PIU20240087")
+    st.text("Student ID: PIUS20240087")
     st.text("Class of 2028")
 
 
